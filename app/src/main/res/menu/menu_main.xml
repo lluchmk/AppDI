@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dam.android.appdi.MainActivity">
+    <item
+        android:id="@+id/menu_resultados"
+        android:icon="@drawable/ic_resultados"
+        android:title="@string/resultados"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="@string/opciones"
+        app:showAsAction="never"/>
+</menu>
